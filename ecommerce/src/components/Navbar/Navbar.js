@@ -1,4 +1,5 @@
 import React from 'react'
+import {logo} from "../../assets/logo.png"
 
 export default function Navbar() {
   return (
@@ -8,7 +9,7 @@ export default function Navbar() {
       <div className="">
         <div className="">
             <div className="">
-
+               
             </div>
         </div>
       </div>
