@@ -6,13 +6,16 @@ export default function Navbar() {
     <div>
 
         {/*Upper Navbar*/}
-      <div className="">
-        <div className="">
-            <div className="">
-               <a href="">
+      <div className=" shadow-md bg-white dark:bg-gray-900 dark:text-white">
+        <div className="bg-primary/40 py-2">
+            <div className=" container flex justify-between items-center">
+                <div>
+               <a href="" className=' font-bold text-2xl sm:text-3xl flex gap-2'>
                 <img src={logo} alt="logo" 
                 className=' w-10 uppercase'/>
+                Shop here
                </a>
+                </div>
                <div className="">
                 <div className=" group">
                    <input type="text" placeholder='search' 
