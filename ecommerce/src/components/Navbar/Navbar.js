@@ -10,7 +10,8 @@ export default function Navbar() {
         <div className="">
             <div className="">
                <a href="">
-                <img src={logo} alt="logo" />
+                <img src={logo} alt="logo" 
+                className=' w-10 uppercase'/>
                </a>
                <div className="">
                 <div className=" group">
