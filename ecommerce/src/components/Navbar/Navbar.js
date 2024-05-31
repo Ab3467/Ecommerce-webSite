@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div>
       {/*Upper Navbar*/}
-      <div className=" shadow-md bg-white dark:bg-gray-900 dark:text-white">
+      <div className=" shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40">
         <div className="bg-primary/40 py-2">
           <div className=" container flex justify-between items-center">
             <div>
@@ -19,7 +19,7 @@ export default function Navbar() {
                 <input
                   type="text"
                   placeholder="search"
-                  className=" w-[200px] sm:w-[200px] group-hover:w-[300px] transition duration-300 rounded-full border border-gray-300 px-2 py-1 focus:outline-none
+                  className=" w-[200px] sm:w-[200px] group-hover:w-[300px] transition-all duration-300 rounded-full border border-gray-300 px-2 py-1 focus:outline-none
                    focus:border-1 focus:border-primary"
                 />
               </div>
