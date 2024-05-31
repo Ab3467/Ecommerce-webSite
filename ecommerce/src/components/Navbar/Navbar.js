@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/logo.png";
+import {IoMdSearch} from "react-icons/io"
 
 export default function Navbar() {
   return (
@@ -19,9 +20,9 @@ export default function Navbar() {
                 <input
                   type="text"
                   placeholder="search"
-                  className=" w-[200px] sm:w-[200px] group-hover:w-[300px] transition-all duration-300 rounded-full border border-gray-300 px-2 py-1 focus:outline-none
-                   focus:border-1 focus:border-primary"
+                  className=" w-[200px] sm:w-[200px] group-hover:w-[300px] transition-all duration-300 rounded-full border border-gray-300 px-2 py-1 focus:outline-none focus:border-1 focus:border-primary"
                 />
+                <IoMdSearch/>
               </div>
             </div>
           </div>
