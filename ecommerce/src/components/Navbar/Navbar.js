@@ -39,3 +39,4 @@ export default function Navbar() {
 }
 
 // yeah its just for comment
+// yeah its about comments
