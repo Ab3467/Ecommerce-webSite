@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo.png";
 import { IoMdSearch } from "react-icons/io";
+import { FaCartShopping } from "react-icons/fa"
 
 export default function Navbar() {
   return (
@@ -30,7 +31,7 @@ export default function Navbar() {
             <button onClick={()=> alert("Ordering yet not available")}
             className=" bg-gradient-to-r from-primary to-secondary transition-all duration-200 text-white py-1 px-4 rounded-full items-center flex gap-3 group">
               <span className=" group-hover:block hidden translate-all duration-200">Order</span>
-              
+              <FaCartShopping/>
             </button>
           </div>
         </div>
