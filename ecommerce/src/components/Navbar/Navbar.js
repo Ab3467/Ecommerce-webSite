@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo.png";
 import { IoMdSearch } from "react-icons/io";
-import { FaCartShopping } from "react-icons/fa6"
+import { FaCartShopping } from "react-icons/fa6";
 
 export default function Navbar() {
   return (
@@ -28,19 +28,23 @@ export default function Navbar() {
             </div>
 
             {/* Order button */}
-            <button onClick={()=> alert("Ordering yet not available")}
-            className=" bg-gradient-to-r from-primary to-secondary transition-all duration-200 text-white py-1 px-4 rounded-full items-center flex gap-3 group">
-              <span className=" group-hover:block hidden translate-all duration-300">Order</span>
-              <FaCartShopping className=" text-xl text-white drop-shadow-sm cursor-pointer"/>
+            <button
+              onClick={() => alert("Ordering yet not available")}
+              className=" bg-gradient-to-r from-primary to-secondary transition-all duration-200 text-white py-1 px-4 rounded-full items-center flex gap-3 group"
+            >
+              <span className=" group-hover:block hidden translate-all duration-300">
+                Order
+              </span>
+              <FaCartShopping className=" text-xl text-white drop-shadow-sm cursor-pointer " />
             </button>
+            {/* DarkMode Button*/}
+            <button className=""></button>
           </div>
         </div>
       </div>
 
       {/*Lower Navbar*/}
-      <div
-        className=""
-      ></div>
+      <div className=""></div>
     </div>
   );
 }
