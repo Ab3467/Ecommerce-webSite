@@ -27,7 +27,7 @@ export default function Navbar() {
             </div>
 
             {/* Order button */}
-            <button>
+            <button onClick={()=> alert("Ordering yet not available")}>
               <span>Order</span>
             </button>
           </div>
@@ -36,8 +36,7 @@ export default function Navbar() {
 
       {/*Lower Navbar*/}
       <div
-        className="
-       "
+        className=""
       ></div>
     </div>
   );
