@@ -28,7 +28,7 @@ export default function Navbar() {
 
             {/* Order button */}
             <button onClick={()=> alert("Ordering yet not available")}
-            className=" bg-gradient-to-r from-primary to-secondary transition-all duration-200 text-white">
+            className=" bg-gradient-to-r from-primary to-secondary transition-all duration-200 text-white py-1">
               <span>Order</span>
             </button>
           </div>
