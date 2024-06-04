@@ -38,7 +38,9 @@ export default function Navbar() {
               <FaCartShopping className=" text-xl text-white drop-shadow-sm cursor-pointer " />
             </button>
             {/* DarkMode Button*/}
-            <button className=""></button>
+            <div>
+              <DarkMode/>
+            </div>
           </div>
         </div>
       </div>
