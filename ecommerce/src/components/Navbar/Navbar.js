@@ -16,7 +16,7 @@ export default function Navbar() {
                 Shop here
               </a>
             </div>
-            <div className="">
+            <div className=" flex justify-between items-center gap-4">
               <div className="relative group hidden sm:block">
                 <input
                   type="text"
