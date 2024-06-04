@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../../assets/logo.png";
 import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
+import { DarkMode } from "react-icons/d"
 
 export default function Navbar() {
   return (
