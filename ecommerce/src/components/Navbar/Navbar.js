@@ -16,7 +16,7 @@ export default function Navbar() {
                 Shop here
               </a>
             </div>
-            <div>
+            <div className="">
               <div className="relative group hidden sm:block">
                 <input
                   type="text"
