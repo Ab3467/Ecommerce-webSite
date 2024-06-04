@@ -25,6 +25,11 @@ export default function Navbar() {
                 <IoMdSearch className="text-gray-500 group-hover:text-primary absolute top-1/2 -translate-y-1/2 right-3" />
               </div>
             </div>
+
+            {/* Order button */}
+            <button>
+              <span>Order</span>
+            </button>
           </div>
         </div>
       </div>
@@ -37,4 +42,3 @@ export default function Navbar() {
     </div>
   );
 }
-
