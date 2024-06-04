@@ -29,7 +29,8 @@ export default function Navbar() {
             {/* Order button */}
             <button onClick={()=> alert("Ordering yet not available")}
             className=" bg-gradient-to-r from-primary to-secondary transition-all duration-200 text-white py-1 px-4 rounded-full items-center flex gap-3 group">
-              <span>Order</span>
+              <span className=" group-hover:block hidden translate-all duration-200">Order</span>
+              
             </button>
           </div>
         </div>
