@@ -45,7 +45,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-
+ 
       {/*Lower Navbar*/}
       <div className=""></div>
     </div>
