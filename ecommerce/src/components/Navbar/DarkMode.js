@@ -18,13 +18,17 @@ export default function DarkMode() {
       localStorage.setItem("theme","light");
     }
   
-  }, [third])
+  }, [theme])
   
 
   return (
     <div className=' relative'>
-      <img src={lightbtn} alt="" className=' w-12 cursor-pointer drop-shadow[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300 absolute right-0 z-10'/>
-      <img src={darkbtn} alt="" className=' w-12 cursor-pointer drop-shadow[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300'/>
+      <img 
+      onClick={()=> settheme(theme === "light" ? "dark" : "light")}
+      src={lightbtn} alt="" className=' w-12 cursor-pointer drop-shadow[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300 absolute right-0 z-10'/>
+      <img 
+      onClick={()=> settheme(theme === "light" ? "dark" : "light")}
+      src={darkbtn} alt="" className=' w-12 cursor-pointer drop-shadow[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300'/>
     </div>
   )
 }
