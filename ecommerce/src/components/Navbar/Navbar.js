@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="bg-primary/40 py-2">
           <div className=" container flex justify-between items-center">
             <div>
-              <a href="" className=" font-bold text-2xl sm:text-3xl flex gap-2">
+              <a href="#" className=" font-bold text-2xl sm:text-3xl flex gap-2">
                 <img src={logo} alt="logo" className=" w-10" />
                 Shop here
               </a>
