@@ -1,4 +1,4 @@
-import {React,useState}  from 'react'
+import {React,useEffect,useState}  from 'react'
 import lightbtn from "../../assets/Website/light-mode-button.png"
 import darkbtn from "../../assets/Website/dark-mode-button.png"
 
@@ -6,6 +6,17 @@ export default function DarkMode() {
   const [theme , settheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
   );
+
+  const element = document.documentElement;
+
+  useEffect(() => {
+    if(theme === "dark"){
+      element.classList.add("dark");
+      localStorage.setItem("theme", "light")
+    }
+  
+  }, [third])
+  
 
   return (
     <div className=' relative'>
