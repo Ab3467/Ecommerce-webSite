@@ -98,6 +98,11 @@ export default function Navbar() {
                 <FaCaretDown className=" transition-all duration-200 group-hover:rotate-180"></FaCaretDown>
               </span>
             </a>
+            <div>
+              <ul>
+                Dropdownlinks..
+              </ul>
+            </div>
           </li>
         </ul>
       </div>
