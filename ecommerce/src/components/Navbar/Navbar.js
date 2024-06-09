@@ -118,7 +118,7 @@ export default function Navbar() {
                 <FaCaretDown className=" transition-all duration-200 group-hover:rotate-180"></FaCaretDown>
               </span>
             </a>
-            <div className=" absolute z-[9999] hidden group-hover:block w-[150px] rounded-md bg-white p-2 text-black shadow-md">
+            <div className=" absolute z-[9999] hidden group-hover:block w-[200px] rounded-md bg-white p-2 text-black shadow-md">
               <ul>
                 {Dropdownlinks.map((data) => (
                   <li key={data.id}>
