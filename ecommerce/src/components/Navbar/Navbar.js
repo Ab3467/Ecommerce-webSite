@@ -111,7 +111,7 @@ export default function Navbar() {
           ))}
           <li className=" group relative cursor-pointer">
             <a href="#" className="flex items-start gap-[2px] py-2">
-              Trending Items
+              Trending Products
               <span>
                 <FaCaretDown className=" transition-all duration-200 group-hover:rotate-180"></FaCaretDown>
               </span>
