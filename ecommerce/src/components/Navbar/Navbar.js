@@ -22,12 +22,12 @@ const Menu = [
     link: "#",
   },
   {
-    id: 3,
+    id: 4,
     name: "Mens Wear",
     link: "#",
   },
   {
-    id: 3,
+    id: 5,
     name: "Electronics",
     link: "#",
   },
@@ -36,7 +36,7 @@ const Menu = [
 const Dropdownlinks = [
   {
     id: 1,
-    name: "Trending products",
+    name: "Trending",
     link: "#",
   },
   {
@@ -97,7 +97,7 @@ export default function Navbar() {
       </div>
 
       {/*Lower Navbar*/}
-      <div className=" flex justify-center">
+      <div className=" flex justify-center border-b shadow-sm">
         <ul className=" sm:flex hidden items-center gap-4">
           {Menu.map((data) => (
             <li key={data.id}>
