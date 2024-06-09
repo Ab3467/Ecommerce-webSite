@@ -2,8 +2,8 @@ import React from "react";
 import logo from "../../assets/logo.png";
 import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
+import { FaCaretDown } from "react-icons/fa";
 import DarkMode from "./DarkMode";
-
 
 const Menu = [
   {
@@ -31,7 +31,7 @@ const Menu = [
     name: "Electronics",
     link: "#",
   },
-]
+];
 
 export default function Navbar() {
   return (
@@ -41,7 +41,10 @@ export default function Navbar() {
         <div className="bg-primary/40 py-2">
           <div className=" container flex justify-between items-center">
             <div>
-              <a href="#" className=" font-bold text-2xl sm:text-3xl flex gap-2">
+              <a
+                href="#"
+                className=" font-bold text-2xl sm:text-3xl flex gap-2"
+              >
                 <img src={logo} alt="logo" className=" w-10" />
                 Shop here
               </a>
@@ -74,24 +77,28 @@ export default function Navbar() {
           </div>
         </div>
       </div>
- 
+
       {/*Lower Navbar*/}
       <div className=" flex justify-center">
         <ul className=" sm:flex hidden items-center gap-4">
-          {
-            Menu.map((data)=>(
-             <li key={data.id}>
-              <a href={data.link} className=" inline-block px-4 hover:text-primary duration-200">{data.name}</a>
-             </li>
-            ))}
-            <li>
-              <a href="#" className="flex items-start gap-[2px] py-2">
-                Trending Items
-                <span>
-                  <FaCaretDown className=" transition-all duration-200 group-hover:rotate-180"></FaCaretDown>
-                </span>
+          {Menu.map((data) => (
+            <li key={data.id}>
+              <a
+                href={data.link}
+                className=" inline-block px-4 hover:text-primary duration-200"
+              >
+                {data.name}
               </a>
             </li>
+          ))}
+          <li>
+            <a href="#" className="flex items-start gap-[2px] py-2">
+              Trending Items
+              <span>
+                <FaCaretDown className=" transition-all duration-200 group-hover:rotate-180"></FaCaretDown>
+              </span>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
