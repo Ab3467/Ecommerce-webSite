@@ -12,7 +12,7 @@ export default function DarkMode() {
   useEffect(() => {
     if(theme === "dark"){
       element.classList.add("dark");
-      localStorage.setItem("theme", "light");
+      localStorage.setItem("theme", "dark");
     }else{
       element.classList.remove("dark");
       localStorage.setItem("theme","light");
