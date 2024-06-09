@@ -109,17 +109,17 @@ export default function Navbar() {
               </a>
             </li>
           ))}
-          <li>
+          <li className=" group relative cursor-pointer">
             <a href="#" className="flex items-start gap-[2px] py-2">
               Trending Items
               <span>
                 <FaCaretDown className=" transition-all duration-200 group-hover:rotate-180"></FaCaretDown>
               </span>
             </a>
-            <div>
+            <div className=" absolute z-[9999] hidden group-hover:block w-[150px] rounded-md bg-white p-2 text-black">
               <ul>
                 {Dropdownlinks.map((data) => (
-                  <li>
+                  <li key={data.id}>
                     <a href={data.link}>{data.name}</a>
                   </li>
                 ))}
@@ -128,6 +128,6 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
-    </div>
+    </div> 
   );
 }
