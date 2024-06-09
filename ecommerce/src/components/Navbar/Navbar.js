@@ -33,6 +33,24 @@ const Menu = [
   },
 ];
 
+const Dropdownlinks = [
+  {
+    id: 1,
+    name: "Trending products",
+    link: "#",
+  },
+  {
+    id: 2,
+    name: "Best Selling",
+    link: "#",
+  },
+  {
+    id: 3,
+    name: "Top Rated",
+    link: "#",
+  },
+];
+
 export default function Navbar() {
   return (
     <div>
@@ -100,11 +118,9 @@ export default function Navbar() {
             </a>
             <div>
               <ul>
-                {Dropdownlinks.map((data) =>(
+                {Dropdownlinks.map((data) => (
                   <li>
-                    <a href={data.link}>
-                      {data.name }
-                    </a>
+                    <a href={data.link}>{data.name}</a>
                   </li>
                 ))}
               </ul>
