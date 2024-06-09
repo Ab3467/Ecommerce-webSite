@@ -81,10 +81,17 @@ export default function Navbar() {
           {
             Menu.map((data)=>(
              <li key={data.id}>
-              <a href={data.link}>{data.name}</a>
+              <a href={data.link} className=" inline-block px-4 hover:text-primary duration-200">{data.name}</a>
              </li>
-            ))
-          }
+            ))}
+            <li>
+              <a href="#" className="flex items-start gap-[2px] py-2">
+                Trending Items
+                <span>
+                  <FaCaretDown className=" transition-all duration-200 group-hover:rotate-180"></FaCaretDown>
+                </span>
+              </a>
+            </li>
         </ul>
       </div>
     </div>
