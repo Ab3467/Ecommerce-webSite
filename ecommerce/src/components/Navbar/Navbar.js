@@ -14,7 +14,7 @@ const Menu = [
   {
     id: 2,
     name: "Top Rated",
-    link: "#",
+    link: "#services",
   },
   {
     id: 3,
@@ -76,11 +76,11 @@ export default function Navbar() {
       </div>
  
       {/*Lower Navbar*/}
-      <div className="">
-        <ul>
+      <div className=" flex justify-center">
+        <ul className=" sm:flex hidden items-center gap-4">
           {
             Menu.map((data)=>(
-             <li>
+             <li key={data.id}>
               <a href={data.link}>{data.name}</a>
              </li>
             ))
