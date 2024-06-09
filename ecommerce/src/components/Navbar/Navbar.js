@@ -100,7 +100,13 @@ export default function Navbar() {
             </a>
             <div>
               <ul>
-                Dropdownlinks..
+                {Dropdownlinks.map((data) =>(
+                  <li>
+                    <a href={data.link}>
+                      {data.name }
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
           </li>
