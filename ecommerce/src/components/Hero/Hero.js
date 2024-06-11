@@ -8,13 +8,13 @@ const Imagelist = [
   {
     id: 1,
     img: women,
-    title: "Upto 50% off for all Men's wear",
+    title: "30% off on all Women's Wear",
     description: " Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus quidem ullam dolorem, velit est quis, dicta sintiure nobis enim corporis"
   },
   {
     id: 2,
     img: shopping,
-    title: "",
+    title: "Upto 50% off for all Men's Wear",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus quidem ullam dolorem, velit est quis, dicta sintiure nobis enim corporis",
   },
   {
