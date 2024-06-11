@@ -34,7 +34,7 @@ export default function Hero() {
         <div className=" container pb-8 sm:pb-0 ">
           <div className="">
             <div className=" grid grid-cols-1 sm:grid-cols-2">
-              <div className="">
+              <div className=" flex flex-col justify-center">
                 <h1 className=" text-5xl sm:text-6xl lg:text-7xl font-bold"></h1>
                 <p className=" text-sm"></p>
                 <div className="">
