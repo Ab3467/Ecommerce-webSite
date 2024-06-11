@@ -27,7 +27,7 @@ const Imagelist = [
 export default function Hero() {
   return (
     <>
-      <div className=" relative overflow-hidden min-h-[550px] sm:min-h-[650px] bg-gray-100 flex">
+      <div className=" relative overflow-hidden min-h-[550px] sm:min-h-[650px] bg-gray-100 flex justify-center items-center dark:bg-gray-950 dark:text-white duration-200">
         {/* Background pattern*/}
 
         <div></div>
