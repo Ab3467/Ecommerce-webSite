@@ -66,7 +66,7 @@ export default function Hero() {
                   <div className=" order-2 sm:order-1">
                     <div className=" relative z-10">
                       <img
-                        src={item.img}
+                        src={data.img}
                         alt=""
                         className=" w-[300px] h-[300px] sm:h-[450px] sm:w-[450px] sm:scale-125 object-contain mx-auto"
                       />
