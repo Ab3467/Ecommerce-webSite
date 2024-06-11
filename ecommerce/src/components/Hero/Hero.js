@@ -38,10 +38,10 @@ export default function Hero() {
            <div className="">
             <div className=" grid grid-cols-1 sm:grid-cols-2">
               <div className="">
-                <h1></h1>
-                <p></p>
+                <h1 className=" text-5xl sm:text-6xl"></h1>
+                <p className=" text-sm"></p>
                 <div className="">
-                  <button>Order now</button>
+                  <button className=" bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">Order now</button>
                 </div>
               </div>
             </div>
