@@ -34,7 +34,7 @@ export default function Hero() {
         <div className=" container pb-8 sm:pb-0 ">
           <div className="">
             <div className=" grid grid-cols-1 sm:grid-cols-2">
-              <div className=" flex flex-col justify-center">
+              <div className=" flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1">
                 <h1 className=" text-5xl sm:text-6xl lg:text-7xl font-bold"></h1>
                 <p className=" text-sm"></p>
                 <div className="">
@@ -43,7 +43,12 @@ export default function Hero() {
                   </button>
                 </div>
               </div>
-              <div className=""></div>
+              <div className=" order-2 sm:order-1">
+                <div>
+                  <img src={women} alt="" 
+                  className=" w-[300px] h-[300px] sm:h-[450px] sm:w-[450px] sm:scale-125 object-contain mx-auto"/>
+                </div>
+              </div>
             </div>
           </div>
         </div>
