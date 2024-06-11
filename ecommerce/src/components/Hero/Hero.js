@@ -31,11 +31,11 @@ export default function Hero() {
         {/* Background pattern*/}
         <div className=" h-[700px] w-[700px] bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z-9"></div>
         {/*hero section*/}
-        <div className=" container pb-8 sm:pb-0 lg:text-7xl font-bold">
+        <div className=" container pb-8 sm:pb-0 ">
           <div className="">
             <div className=" grid grid-cols-1 sm:grid-cols-2">
               <div className="">
-                <h1 className=" text-5xl sm:text-6xl"></h1>
+                <h1 className=" text-5xl sm:text-6xl lg:text-7xl font-bold"></h1>
                 <p className=" text-sm"></p>
                 <div className="">
                   <button className=" bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
