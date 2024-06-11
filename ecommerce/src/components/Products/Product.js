@@ -5,9 +5,9 @@ export default function Product() {
     <div className="mt-10 p-2 flex flex-col items-center">
       <h4 className="text-sm text-primary">Top selling Products For You</h4>
       <h1 className="text-3xl font-bold text-black">Products</h1>
-      <p>
+      <p className=" text-sm text-gray-500">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, magnam
-        eos dicta ullam voluptatem corrupti odio
+        eos dicta ullam 
         </p>
     </div>
   );
