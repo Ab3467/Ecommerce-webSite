@@ -34,7 +34,7 @@ export default function Hero() {
 
         </div>
         {/*hero section*/}
-        <div className=" container pb-8 sm:pb-0">
+        <div className=" container pb-8 sm:pb-0 lg:text-7xl font-bold">
            <div className="">
             <div className=" grid grid-cols-1 sm:grid-cols-2">
               <div className="">
@@ -43,6 +43,9 @@ export default function Hero() {
                 <div className="">
                   <button className=" bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">Order now</button>
                 </div>
+              </div>
+              <div className="">
+                
               </div>
             </div>
            </div>
