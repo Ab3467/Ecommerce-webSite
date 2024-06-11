@@ -2,7 +2,7 @@ import React from "react";
 import sale from "../../assets/hero/sale.png";
 import shopping from "../../assets/hero/shopping.png";
 import women from "../../assets/hero/women.png";
-import slider from "react-slick";
+import Slider from "react-slick";
 
 const Imagelist = [
   {
@@ -33,6 +33,8 @@ export default function Hero() {
         <div className=" h-[700px] w-[700px] bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z-9"></div>
         {/*hero section*/}
         <div className=" container pb-8 sm:pb-0 ">
+
+          <Slider>
           <div className="">
             <div className=" grid grid-cols-1 sm:grid-cols-2">
               <div className=" flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative z-10">
@@ -61,6 +63,8 @@ export default function Hero() {
               </div>
             </div>
           </div>
+          </Slider>
+          
         </div>
       </div>
     </>
