@@ -25,7 +25,7 @@ const Productsdata = [
     },
     {
         id: 3,
-        img: img1,
+        img: img3,
         title: "Goggles",
         Rating: 4.7,
         color: "brown",
@@ -33,7 +33,7 @@ const Productsdata = [
     },
     {
         id: 4,
-        img: img1,
+        img: img4,
         title: "Printed T-Shirt",
         Rating: 4.4,
         color: "yellow",
@@ -68,7 +68,7 @@ const Productsdata = [
                 {
                     Productsdata.map((data)=>(
                         <div>
-
+                            
                         </div>
                     ))
                 }
