@@ -1,8 +1,8 @@
 import React from "react";
 import img1 from "../../assets/women/women.png";
-import img2 from "../../assets/women/women2.png";
-import img3 from "../../assets/women/women3.png";
-import img4 from "../../assets/women/women4.png";
+import img2 from "../../assets/women/women2.jpg"
+import img3 from "../../assets/women/women3.jpg";
+import img4 from "../../assets/women/women4.jpg";
 import { FaStar } from "react-icons/fa6";
 
 export default function Product() {
@@ -69,7 +69,14 @@ export default function Product() {
             />
 
             {Productsdata.map((data) => (
-              <div></div>
+              <div>
+                <img src={data.img} alt="" className=" h-[220px] w-[150px] object-cover rounded-md"/>
+                <div>
+                    <h1>
+
+                    </h1>
+                </div>
+              </div>
             ))}
           </div>
         </div>
