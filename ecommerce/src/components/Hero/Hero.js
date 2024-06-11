@@ -2,6 +2,7 @@ import React from "react";
 import sale from "../../assets/hero/sale.png";
 import shopping from "../../assets/hero/shopping.png";
 import women from "../../assets/hero/women.png";
+import slider from "react-slick"
 
 const Imagelist = [
   {
@@ -34,15 +35,14 @@ export default function Hero() {
         <div className=" container pb-8 sm:pb-0 ">
           <div className="">
             <div className=" grid grid-cols-1 sm:grid-cols-2">
-              <div className=" flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1">
+              <div className=" flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative z-10">
                 <h1 className=" text-5xl sm:text-6xl lg:text-7xl font-bold">
                   Upto 50% off for all Men's wear
                 </h1>
                 <p className=" text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Delectus quidem ullam dolorem, velit est quis, dicta sint iure
-                  nobis enim corporis! Eos eum, debitis rem sit tempora hic
-                  architecto corporis!
+                  nobis enim corporis!
                 </p>
                 <div className="">
                   <button className=" bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
@@ -51,7 +51,7 @@ export default function Hero() {
                 </div>
               </div>
               <div className=" order-2 sm:order-1">
-                <div>
+                <div className=" relative z-10">
                   <img
                     src={women}
                     alt=""
