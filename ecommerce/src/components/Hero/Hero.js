@@ -2,6 +2,7 @@ import React from "react";
 import sale from "../../assets/hero/sale.png";
 import shopping from "../../assets/hero/shopping.png";
 import women from "../../assets/hero/women.png";
+import men from "../../assets/hero/50%.png"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
