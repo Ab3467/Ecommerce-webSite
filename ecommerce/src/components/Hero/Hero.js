@@ -45,6 +45,7 @@ export default function Hero() {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Delectus quidem ullam dolorem, velit est quis, dicta sint iure
                   nobis enim corporis!
+                  
                 </p>
                 <div className="">
                   <button className=" bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
