@@ -51,7 +51,7 @@ export default function Hero() {
         <div className=" container pb-8 sm:pb-0 ">
           <Slider {...setting}>
             {Imagelist.map((data) => (
-              <div className="">
+              <div>
                 <div className=" grid grid-cols-1 sm:grid-cols-2">
                   <div className=" flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative z-10">
                     <h1 className=" text-5xl sm:text-6xl lg:text-7xl font-bold">
