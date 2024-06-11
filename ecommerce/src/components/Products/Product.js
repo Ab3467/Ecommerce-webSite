@@ -1,6 +1,6 @@
 import React from "react";
 import img1 from "../../assets/women/women.png";
-import img2 from "../../assets/women/women2.jpg"
+import img2 from "../../assets/women/women2.jpg";
 import img3 from "../../assets/women/women3.jpg";
 import img4 from "../../assets/women/women4.jpg";
 import { FaStar } from "react-icons/fa6";
@@ -18,7 +18,7 @@ export default function Product() {
     {
       id: 2,
       img: img2,
-      title: "Women western",
+      title: "Women Western",
       Rating: 4.5,
       color: "red",
       aosDelay: "200",
@@ -48,37 +48,35 @@ export default function Product() {
       aosDelay: "800",
     },
   ];
+
   return (
-    <div className=" mt-14 mb-12">
-      <div className=" container">
-        <div className=" text-center mb-10 max-w-[600px] mx-auto">
+    <div className="mt-14 mb-12">
+      <div className="container">
+        <div className="text-center mb-10 max-w-[600px] mx-auto">
           <p className="text-sm text-primary">Top selling Products For You</p>
           <h1 className="text-3xl font-bold">Products</h1>
-          <p className=" text-xs text-gray-400">
+          <p className="text-xs text-gray-400">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
             magnam eos dicta ullam
           </p>
         </div>
 
-        <div className="">
-          <div className="">
-            <img
-              src=""
-              alt=""
-              className=" grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5"
-            />
-
-            {Productsdata.map((data) => (
-              <div>
-                <img src={data.img} alt="" className=" h-[220px] w-[150px] object-cover rounded-md"/>
-                <div>
-                    <h1>
-
-                    </h1>
-                </div>
+        <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5">
+          {Productsdata.map((data) => (
+            <div key={data.id} className="text-center">
+              <img
+                src={data.img}
+                alt={data.title}
+                className="h-[220px] w-[150px] object-cover rounded-md mb-2"
+              />
+              <h2 className="text-lg font-semibold">{data.title}</h2>
+              <p className="text-sm text-gray-500">{data.color}</p>
+              <div className="flex justify-center items-center">
+                <FaStar className="text-yellow-500" />
+                <p className="ml-1">{data.Rating}</p>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
