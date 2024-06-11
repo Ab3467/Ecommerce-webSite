@@ -8,20 +8,20 @@ const Imagelist = [
   {
     id: 1,
     img: women,
-    title: "",
-    description: "",
+    title: "Upto 50% off for all Men's wear",
+    description: " Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus quidem ullam dolorem, velit est quis, dicta sintiure nobis enim corporis"
   },
   {
     id: 2,
     img: shopping,
     title: "",
-    description: "",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus quidem ullam dolorem, velit est quis, dicta sintiure nobis enim corporis",
   },
   {
     id: 3,
     img: sale,
-    title: "",
-    description: "",
+    title: "70% off on all Products Sale",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus quidem ullam dolorem, velit est quis, dicta sintiure nobis enim corporis",
   },
 ];
 
@@ -52,12 +52,10 @@ export default function Hero() {
                 <div className=" grid grid-cols-1 sm:grid-cols-2">
                   <div className=" flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative z-10">
                     <h1 className=" text-5xl sm:text-6xl lg:text-7xl font-bold">
-                      Upto 50% off for all Men's wear
+                      {data.title}
                     </h1>
                     <p className=" text-sm">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Delectus quidem ullam dolorem, velit est quis, dicta sint
-                      iure nobis enim corporis!
+                     {data.description}
                     </p>
                     <div className="">
                       <button className=" bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
@@ -68,7 +66,7 @@ export default function Hero() {
                   <div className=" order-2 sm:order-1">
                     <div className=" relative z-10">
                       <img
-                        src={women}
+                        src={item.img}
                         alt=""
                         className=" w-[300px] h-[300px] sm:h-[450px] sm:w-[450px] sm:scale-125 object-contain mx-auto"
                       />
