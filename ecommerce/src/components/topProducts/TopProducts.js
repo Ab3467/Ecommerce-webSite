@@ -44,7 +44,11 @@ export default function TopProducts() {
 
         <div className="">
         {ProductDetails.map((data)=>(
-            <div></div>
+            <div className='' key={data.id}>
+                <div>
+                    <img src={data.img} alt="" />
+                </div>
+            </div>
         ))}
         </div>
       </div>
