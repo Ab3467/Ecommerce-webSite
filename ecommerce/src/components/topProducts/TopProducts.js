@@ -11,21 +11,21 @@ export default function TopProducts() {
       img: img1,
       title: "Casual Wear",
       description:
-        " Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus quidem ullam dolorem, velit est quis, dicta sintiure nobis enim corporis",
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus quidem ullam dolorem",
     },
     {
       id: 2,
       img: img2,
       title: "Printed shirt",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus quidem ullam dolorem, velit est quis, dicta sintiure nobis enim corporis",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus quidem ullam dolorem",
     },
     {
       id: 3,
       img: img3,
       title: "Women shirt",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus quidem ullam dolorem, velit est quis, dicta sintiure nobis enim corporis",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus quidem ullam dolorem",
     },
   ];
   return (
@@ -63,7 +63,7 @@ export default function TopProducts() {
                   <FaStar className=" text-yellow-500"/>
                 </div>
                 <h1 className=" text-xl font-bold">{data.title}</h1>
-                <p className=" text-xs text-gray-600">{data.description}</p>
+                <p className=" text-xs text-gray-600 group-hover:text-white duration-300 ">{data.description}</p>
               </div>
             </div>
           ))}
