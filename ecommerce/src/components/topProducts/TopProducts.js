@@ -1,7 +1,32 @@
 // TopProducts.js
 import React from 'react';
 
+
 export default function TopProducts() {
+
+    const Imagelist = [
+        {
+          id: 1,
+          img: women,
+          title: "30% off on all Women's Wear",
+          description:
+            " Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus quidem ullam dolorem, velit est quis, dicta sintiure nobis enim corporis",
+        },
+        {
+          id: 2,
+          img: shopping,
+          title: "Upto 50% off for all Men's Wear",
+          description:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus quidem ullam dolorem, velit est quis, dicta sintiure nobis enim corporis",
+        },
+        {
+          id: 3,
+          img: sale,
+          title: "70% off on all Products Sale",
+          description:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus quidem ullam dolorem, velit est quis, dicta sintiure nobis enim corporis",
+        },
+      ];
   return (
     <div>
 
