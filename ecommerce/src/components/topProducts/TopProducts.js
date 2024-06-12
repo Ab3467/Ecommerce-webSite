@@ -50,8 +50,11 @@ export default function TopProducts() {
             ground max-w-[300px]"
               key={data.id}
             >
-              <div>
+              <div className=" h-[100px]">
                 <img src={data.img} alt="" className=" max-w-[140px] block mx-auto transform -translate-y-20 group-hover:scale-105 duration-300 drop-shadow-md"/>
+              </div>
+              <div className=" p-4 text-center">
+
               </div>
             </div>
           ))}
