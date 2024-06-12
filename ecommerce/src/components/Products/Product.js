@@ -75,7 +75,7 @@ export default function Product() {
               <div>
                 <h3 className=" font-semibold">{data.title}</h3>
                 <p className=" text-sm text-gray-600 font-serif">{data.color}</p>
-                <div className=" flex items-center gap-1">
+                <div className=" flex ````` items-center gap-1">
                   <FaStar className=" text-yellow-400" />
                   <span>{data.Rating}</span>
                 </div>
