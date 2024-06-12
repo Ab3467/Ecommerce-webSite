@@ -2,6 +2,7 @@ import React from "react";
 import img1 from "../../assets/shirts/shirt.png";
 import img2 from "../../assets/shirts/shirt2.png";
 import img3 from "../../assets/shirts/shirt3.png";
+import { FaStar } from "react-icons/fa6";
 
 export default function TopProducts() {
   const ProductDetails = [
@@ -53,8 +54,14 @@ export default function TopProducts() {
               <div className=" h-[100px]">
                 <img src={data.img} alt="" className=" max-w-[140px] block mx-auto transform -translate-y-20 group-hover:scale-105 duration-300 drop-shadow-md"/>
               </div>
-              <div className=" p-4 text-center">
 
+              <div className=" p-4 text-center">
+                <div className=" w-full flex item-center justify-center gap-1">
+                  <FaStar className=" text-yellow-500"/>
+                  <FaStar className=" text-yellow-500"/>
+                  <FaStar className=" text-yellow-500"/>
+                  <FaStar className=" text-yellow-500"/>
+                </div>
               </div>
             </div>
           ))}
