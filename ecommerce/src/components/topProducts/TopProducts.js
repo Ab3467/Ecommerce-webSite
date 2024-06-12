@@ -31,7 +31,7 @@ export default function TopProducts() {
   return (
     <div>
       <div className="container">
-        <div className="text-left mb-10">
+        <div className="text-left mb-24">
           <p data-aos="fade-up" className="text-sm text-primary">
             Top Rated Products For You
           </p>
