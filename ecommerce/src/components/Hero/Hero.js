@@ -29,11 +29,11 @@ const Imagelist = [
 ];
 
 var setting = {
-  dots: true,
+  dots: true,    
   arrows: true, 
-  infinite: true,
-  speed: 800,
-  slidesToScroll: 1,
+  infinite: true,   // again start the slider when it reaches the last one
+  speed: 800,    // speed of slider
+  slidesToScroll: 1,   // how many slides needs to scroll at a time
   autoplay: true, 
   autoplaySpeed: 4000, 
   cssEase: "ease-in-out",
