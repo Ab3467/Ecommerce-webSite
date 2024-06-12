@@ -62,6 +62,8 @@ export default function TopProducts() {
                   <FaStar className=" text-yellow-500"/>
                   <FaStar className=" text-yellow-500"/>
                 </div>
+                <h1 className=" text-xl font-bold">{data.title}</h1>
+                <p className=" text-xs text-gray-600">{data.description}</p>
               </div>
             </div>
           ))}
