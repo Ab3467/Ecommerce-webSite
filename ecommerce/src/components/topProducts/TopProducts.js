@@ -1,4 +1,3 @@
-// TopProducts.js
 import React from "react";
 import img1 from "../../assets/shirts/shirt.png";
 import img2 from "../../assets/shirts/shirt2.png";
