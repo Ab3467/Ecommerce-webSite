@@ -1,6 +1,8 @@
 // TopProducts.js
 import React from 'react';
-
+import img1 from "../../assets/shirts/shirt.png"
+import img1 from "../../assets/shirts/shirt2.png"
+import img1 from "../../assets/shirts/shirt3.png"
 
 export default function TopProducts() {
 
