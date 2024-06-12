@@ -2,8 +2,12 @@ import React from 'react'
 
 export default function TopProducts() {
   return (
-    <div>
-      Top Products
+    <div className="">
+        <div className="">
+            <p></p>
+            <h1></h1>
+            <p></p>
+        </div>
     </div>
   )
 }
