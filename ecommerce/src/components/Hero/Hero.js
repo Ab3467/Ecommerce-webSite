@@ -32,10 +32,10 @@ var setting = {
   dots: true,    
   arrows: true, 
   infinite: true,   // again start the slider when it reaches the last one
-  speed: 800,    // speed of slider
+  speed: 1000,    // speed of slider
   slidesToScroll: 1,   // how many slides needs to scroll at a time
   autoplay: true, 
-  autoplaySpeed: 4000, 
+  autoplaySpeed: 3000, 
   cssEase: "ease-in-out",
   pauseOnHover: false,
   pauseOnFocus: true,
