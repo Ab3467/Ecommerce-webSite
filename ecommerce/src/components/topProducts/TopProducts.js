@@ -1,30 +1,30 @@
 // TopProducts.js
 import React from 'react';
 import img1 from "../../assets/shirts/shirt.png"
-import img1 from "../../assets/shirts/shirt2.png"
-import img1 from "../../assets/shirts/shirt3.png"
+import img2 from "../../assets/shirts/shirt2.png"
+import img3 from "../../assets/shirts/shirt3.png"
 
 export default function TopProducts() {
 
-    const Imagelist = [
+    const ProductDetails = [
         {
           id: 1,
-          img: women,
-          title: "30% off on all Women's Wear",
+          img: img1,
+          title: "Casual Wear",
           description:
             " Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus quidem ullam dolorem, velit est quis, dicta sintiure nobis enim corporis",
         },
         {
           id: 2,
-          img: shopping,
-          title: "Upto 50% off for all Men's Wear",
+          img: img2,
+          title: "Printed shirt",
           description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus quidem ullam dolorem, velit est quis, dicta sintiure nobis enim corporis",
         },
         {
           id: 3,
-          img: sale,
-          title: "70% off on all Products Sale",
+          img: img3,
+          title: "Women shirt",
           description:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit Delectus quidem ullam dolorem, velit est quis, dicta sintiure nobis enim corporis",
         },
