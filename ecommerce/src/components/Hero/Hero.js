@@ -30,7 +30,7 @@ const Imagelist = [
 
 var setting = {
   dots: true,
-  arrows: false, 
+  arrows: true, 
   infinite: true,
   speed: 800,
   slidesToScroll: 1,
@@ -53,7 +53,7 @@ export default function Hero() {
             {Imagelist.map((data) => (
               <div>
                 <div className=" grid grid-cols-1 sm:grid-cols-2">
-                  <div className=" flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative z-10">
+                  <div className=" flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1 relative z-10 pl-3">
                     
                     <h1 
                     className=" text-5xl sm:text-6xl lg:text-7xl font-bold"
