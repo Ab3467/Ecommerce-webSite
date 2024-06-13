@@ -30,7 +30,7 @@ export default function TopProducts() {
   ];
   return (
     <div>
-      <div className="container " data-aos = "fade-up">
+      <div className="container " >
         <div className="text-left mb-24">
           <p data-aos="fade-up" className="text-sm text-primary">
             Top Rated Products For You
@@ -56,14 +56,14 @@ export default function TopProducts() {
               </div>
 
               <div className=" p-4 text-center">
-                <div className=" w-full flex item-center justify-center gap-1">
-                  <FaStar className=" text-yellow-500"/>
+                <div data-aos = "fade-up" className=" w-full flex item-center justify-center gap-1">
+                  <FaStar className=" text-yellow-500" />
                   <FaStar className=" text-yellow-500"/>
                   <FaStar className=" text-yellow-500"/>
                   <FaStar className=" text-yellow-500"/>
                 </div>
-                <h1 className=" text-xl font-bold">{data.title}</h1>
-                <p className="text-gray-600 group-hover:text-white duration-300 text-sm line-clamp-2">{data.description}</p>
+                <h1 data-aos = "fade-up" className=" text-xl font-bold">{data.title}</h1>
+                <p data-aos = "fade-up" className="text-gray-600 group-hover:text-white duration-300 text-sm line-clamp-2">{data.description}</p>
               </div>
             </div>
           ))}
