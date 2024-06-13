@@ -20,7 +20,7 @@ export default function Banner() {
             <h1 className=" text-3xl sm:text-4xl font-bold">
               Winter Sale upto 50% Off
             </h1>
-            <p className=" text-sm text-gray-500">
+            <p className=" text-sm text-gray-500 tracking-wide leading-5">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
               reiciendis inventore iste ratione ex alias quis magni at optio
             </p>
