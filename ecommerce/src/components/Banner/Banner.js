@@ -1,5 +1,8 @@
 import React from 'react'
 import img from "../../assets/women/women2.jpg"
+import {GrSecure} from "react-icons/gr"
+import {IoFastFood} from "react-icons/io"
+import {GiFoodTruck} from "react-icons/gi"
 
 export default function Banner() {
   return (
