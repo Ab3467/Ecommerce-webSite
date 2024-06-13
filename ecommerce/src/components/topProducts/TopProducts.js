@@ -46,8 +46,7 @@ export default function TopProducts() {
 
         <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 md:gap-5 place-items-center">
           {ProductDetails.map((data) => (
-            <div
-              className=" rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary hover:text-white relative shadow-xl duration-300
+            <div data-aos = "zoom-in" className=" rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary hover:text-white relative shadow-xl duration-300
             ground max-w-[300px]"
               key={data.id}
             >
@@ -64,9 +63,7 @@ export default function TopProducts() {
                 </div>
                 <h1 className=" text-xl font-bold">{data.title}</h1>
                 <p className="text-gray-600 group-hover:text-white duration-300 text-sm line-clamp-2">{data.description}</p>
-                <button 
-                data-aos = "zoom-in"
-                className=" bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary">
+                <button className=" bg-primary hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary">
                  Order Now
                 </button>
               </div>
