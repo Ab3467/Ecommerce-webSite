@@ -1,7 +1,7 @@
 import React from "react";
 import img from "../../assets/women/women2.jpg";
 import { GrSecure } from "react-icons/gr";
-import { IoFastFood } from "react-icons/io";
+import { IoFastFood } from "react-icons/io5";
 import { GiFoodTruck } from "react-icons/gi";
 
 export default function Banner() {
@@ -34,7 +34,7 @@ export default function Banner() {
                 <p>Fast Delivery</p>
               </div>
               <div data-aos= "fade-up" className=" flex items-center gap-4">
-                <IoFastFood className=" text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 data-bg-orange-400"/>
+                <GiFoodTruck className=" text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 data-bg-orange-400"/>
                 <p>Easy Payment Method</p>
               </div>
               <div data-aos= "fade-up" className=" flex items-center gap-4">
