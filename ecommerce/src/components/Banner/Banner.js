@@ -29,11 +29,17 @@ export default function Banner() {
                 <GrSecure className=" text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-100 data-bg-voilet-400"/>
                 <p>Quality Products</p>
               </div>
-              <div>
               <div data-aos= "fade-up" className=" flex items-center gap-4">
                 <IoFastFood className=" text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 data-bg-orange-400"/>
                 <p>Fast Delivery</p>
               </div>
+              <div data-aos= "fade-up" className=" flex items-center gap-4">
+                <IoFastFood className=" text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 data-bg-orange-400"/>
+                <p>Easy Payment Method</p>
+              </div>
+              <div data-aos= "fade-up" className=" flex items-center gap-4">
+                <IoFastFood className=" text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 data-bg-orange-400"/>
+                <p>Get Offers</p>
               </div>
             </div>
           </div>
