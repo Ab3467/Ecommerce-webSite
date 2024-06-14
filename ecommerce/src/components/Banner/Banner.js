@@ -25,8 +25,10 @@ export default function Banner() {
               reiciendis inventore iste ratione ex alias quis magni at optio
             </p>
             <div>
-              <GrSecure/>
-              <p></p>
+              <div>
+                <GrSecure />
+                <p></p>
+              </div>
             </div>
           </div>
         </div>
