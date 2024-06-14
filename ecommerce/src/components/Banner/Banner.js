@@ -26,6 +26,7 @@ export default function Banner() {
             </p>
             <div>
               <GrSecure/>
+              <p></p>
             </div>
           </div>
         </div>
