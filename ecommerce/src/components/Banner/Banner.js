@@ -30,7 +30,7 @@ export default function Banner() {
                 <p>Quality Products</p>
               </div>
               <div data-aos= "fade-up" className=" flex items-center gap-4">
-                <GrSecure className=" text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 data-bg-orange-400"/>
+                <IoFastFood className=" text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 data-bg-orange-400"/>
                 <p>Fast Delivery</p>
               </div>
             </div>
