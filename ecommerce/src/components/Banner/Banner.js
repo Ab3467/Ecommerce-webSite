@@ -24,6 +24,9 @@ export default function Banner() {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
               reiciendis inventore iste ratione ex alias quis magni at optio
             </p>
+            <div>
+              <GrSecure/>
+            </div>
           </div>
         </div>
       </div>
