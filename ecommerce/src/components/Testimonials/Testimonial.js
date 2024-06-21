@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Testimonial() {
   return (
-    <div className=" mt-14 mb-20">
+    <div className="py-10 mb-10">
       <div className=" container">
         <div className=" text-center mb-10 max-w-[600px] mx-auto">
           <p data-aos="fade-up" className="text-sm text-primary">
