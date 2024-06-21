@@ -91,8 +91,8 @@ export default function Product() {
               </div>
             ))}
           </div>
-          <div className=" flex justify-center m-14">
-            <button className=" bg-primary hover:scale-105 duration-300 text-white group-hover:bg-white group-hover:text-primary w-[120px] h-[40px] rounded-md">
+          <div className=" flex justify-center m-14" data-aos="fade-up">
+            <button className=" bg-primary hover:scale-105 duration-300 text-white group-hover:bg-white group-hover:text-primary w-[140px] h-[35px] rounded-md">
               View All Button
             </button>
           </div>
