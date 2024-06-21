@@ -15,7 +15,11 @@ export default function Subscribe() {
     <div data-aos="zoom-in"
     className=" bg-gray-100 dark:bg-gray-800 text-white"
     style={BannerImg}>
-      <div className=""></div>
+      <div className="">
+        <div className="">
+          Get Notifies about5 new Products 
+        </div>
+      </div>
     </div>
   );
 }
