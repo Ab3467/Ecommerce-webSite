@@ -12,7 +12,9 @@ export default function Subscribe() {
   };
 
   return (
-    <div>
+    <div data-aos="zoom-in"
+    className=" bg-gray-100 dark:bg-gray-800 text-white"
+    style={BannerImg}>
       <div className=""></div>
     </div>
   );
