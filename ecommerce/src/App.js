@@ -26,6 +26,7 @@ export default function App() {
       <TopProducts/>
       <Banner/>
       <Subscribe/>
+      <Product/>
     </div>
   )
 }

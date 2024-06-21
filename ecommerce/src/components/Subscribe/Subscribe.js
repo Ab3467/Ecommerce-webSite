@@ -22,7 +22,7 @@ export default function Subscribe() {
           <h1 className=" text-2xl !text-center sm:text-left sm:text-4xl font-semibold">
             Get Notified about new Products{" "}
           </h1>
-          <input type="text" placeholder="Enter your Email" data-aos="fade-up" className=" w-full p-3"/>
+          <input type="text" placeholder="Enter your Email" data-aos="fade-up" className=" w-full p-3 border boder-primary"/>
         </div>
       </div>
     </div>
