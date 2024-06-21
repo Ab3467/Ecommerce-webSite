@@ -86,9 +86,12 @@ export default function Testimonial() {
             <div>
               <Slider {...settings}>
                 {TestimonialData.map((data) => (
-                  <div key={data.id} className=" flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-full">
+                  <div
+                    key={data.id}
+                    className=" flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-full"
+                  >
                     <div>
-
+                      <img src={data.img} alt="" />
                     </div>
                   </div>
                 ))}
