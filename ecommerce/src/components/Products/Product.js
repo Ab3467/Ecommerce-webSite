@@ -60,6 +60,7 @@ export default function Product() {
           </p>
         </div>
 
+        <div>
         <div className=" grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center gap-5">
           {Productsdata.map((data) => (
             <div 
@@ -83,6 +84,8 @@ export default function Product() {
             </div>
           ))}
         </div>
+        <button>View All </button>
+        </div> 
       </div>
     </div>
   );
