@@ -49,7 +49,7 @@ export default function Product() {
     },
   ];
   return (
-    <div className=" mt-14 mb-20 ">
+    <div className=" mt-14 mb-12 ">
       <div className=" container">
         <div className=" text-center mb-10 max-w-[600px] mx-auto">
           <p data-aos="fade-up" className="text-sm text-primary">
@@ -91,8 +91,8 @@ export default function Product() {
               </div>
             ))}
           </div>
-          <div className=" flex justify-center m-14" data-aos="fade-up">
-            <button className=" bg-primary hover:scale-105 duration-300 text-white group-hover:bg-white group-hover:text-primary w-[140px] h-[35px] rounded-md">
+          <div className=" flex justify-center" data-aos="fade-up">
+            <button className=" text-center mt-10 bg-primary hover:scale-105 duration-300 text-white py-1 px-5 rounded-md">
               View All Button
             </button>
           </div>
