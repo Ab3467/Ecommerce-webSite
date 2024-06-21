@@ -16,8 +16,8 @@ export default function Subscribe() {
     className=" bg-gray-100 dark:bg-gray-800 text-white"
     style={BannerImg}>
       <div className="">
-        <div className="">
-          Get Notifies about5 new Products 
+        <div className=" container backdrop-blur-sm py-10">
+          <h1 className=" text-2xl text-center sm:text-left sm:text-4xl">Get Notifies about5 new Products </h1>
         </div>
       </div>
     </div>
