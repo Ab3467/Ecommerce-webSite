@@ -92,7 +92,7 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* social links */}
+            {/* social inks */}
 
             <div>
               <div className="flex items-center gap-3 mt-6">
