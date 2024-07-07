@@ -1,5 +1,5 @@
 import React from "react";
-import footerLogo from "../../assets/logo.png"
+import footerLogo from "../../assets/logo.png";
 import Banner from "../../assets/Website/footer-pattern.jpg";
 import {
   FaFacebook,
@@ -49,8 +49,9 @@ const Footer = () => {
               Shopsy
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
-              beatae ea recusandae blanditiis veritatis.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sit
+              dignissimos aut, doloremque ipsum dolore optio omnis reiciendis
+              aliquid ab inventore culpa alias.
             </p>
           </div>
 
@@ -124,6 +125,5 @@ const Footer = () => {
 };
 
 export default Footer;
-
 
 // This is for comment
