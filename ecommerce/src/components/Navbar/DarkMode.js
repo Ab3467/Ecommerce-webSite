@@ -2,6 +2,7 @@ import React, {useEffect, useState } from "react";
 import lightbtn from "../../assets/Website/light-mode-button.png";
 import darkbtn from "../../assets/Website/dark-mode-button.png";
 
+
 export default function DarkMode() {
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"

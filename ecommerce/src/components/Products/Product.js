@@ -4,11 +4,12 @@ import img2 from "../../assets/women/women2.jpg";
 import img3 from "../../assets/women/women3.jpg";
 import img4 from "../../assets/women/women4.jpg";
 import { FaStar } from "react-icons/fa6";
+import Button from "../Button";
 
 export default function Product() {
-   function handleButton(){
-    alert("App in maintenance")
-   }
+  function handleButton() {
+    alert("App in maintenance");
+  }
 
   const Productsdata = [
     {
@@ -96,9 +97,10 @@ export default function Product() {
             ))}
           </div>
           <div className=" flex justify-center" data-aos="fade-up">
-            <button className=" text-center mt-10 bg-primary hover:scale-105 duration-300 text-white py-1 px-5 rounded-md" onClick={handleButton}>
-              View All Button
-            </button>
+            <Button
+              handleButton={handleButton}
+              btnName="View All Buttons"
+            ></Button>
           </div>
         </div>
       </div>
