@@ -59,7 +59,7 @@ export default function Navbar() {
         <div className="bg-primary/40 py-2">
           <div className="container flex justify-between items-center">
             <div>
-              <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
+              <a href="/" className="font-bold text-2xl sm:text-3xl flex gap-2">
                 <img src={logo} alt="logo" className="w-10" />
                 Shop here
               </a>
@@ -99,7 +99,7 @@ export default function Navbar() {
             </li>
           ))}
           <li className="group relative cursor-pointer">
-            <a href="#" className="flex items-start gap-[2px] py-2">
+            <a href="/" className="flex items-start gap-[2px] py-2">
               Trending Products
               <span>
                 <FaCaretDown className="transition-all duration-200 group-hover:rotate-180"></FaCaretDown>
