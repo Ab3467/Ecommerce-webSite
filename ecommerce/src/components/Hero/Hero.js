@@ -3,6 +3,7 @@ import sale from "../../assets/hero/sale.png";
 import shopping from "../../assets/hero/shopping.png";
 import women from "../../assets/hero/women.png";
 import Slider from "react-slick";
+import Button from "../Button";
 
 const Imagelist = [
   {
@@ -42,9 +43,8 @@ var setting = {
 };
 
 export default function Hero() {
-
-  function handleOrderButton(){
-      alert("App in maintenance")
+  function handleButton() {
+    alert("App in maintenance");
   }
 
   return (
@@ -82,9 +82,10 @@ export default function Hero() {
                       data-aos-duration="500"
                       data-aos-delay="300"
                     >
-                      <button className=" bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full" onClick={handleOrderButton}>
-                        Order now
-                      </button>
+                      <Button
+                        handleButton={handleButton}
+                        btnName="Order Now"
+                      ></Button>
                     </div>
                   </div>
                   <div className=" order-2 sm:order-1">
