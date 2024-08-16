@@ -44,7 +44,7 @@ var setting = {
 export default function Hero() {
 
   function handleOrderButton(){
-      
+      alert("App in maintenance")
   }
 
   return (
